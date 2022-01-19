@@ -7,8 +7,8 @@ from telegram.ext import Dispatcher, MessageHandler, Filters
 app = Flask(__name__)
 
 # 設定你的token
-bot = telegram.Bot(token=('你的token'))
-bot.send_message(chat_id = '你的ID', text ='你可以開始了')
+bot = telegram.Bot(token=('5086013813:AAGk0wFHc-SzlsRldUxFGr7xwS0oL9ahCF0'))
+bot.send_message(chat_id = '500642973', text ='你可以開始了')
 
 @app.route('/hook', methods=['POST'])
 def webhook_handler():
